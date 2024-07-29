@@ -1,0 +1,11 @@
+parameters:
+    level: 8
+
+    reportUnmatchedIgnoredErrors: false
+
+    paths:
+        - 'src/'
+
+    excludePaths:
+        # Vendor files in subpackages
+        - '**/vendor/**'

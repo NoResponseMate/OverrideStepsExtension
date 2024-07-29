@@ -1,0 +1,29 @@
+{
+    "name": "no-response-mate/override-steps-extension",
+    "description": "Automatically overrides duplicated steps based on context placement within suites",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Goralski",
+            "email": "jan.wojciech.goralski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "behat/behat": "^3.4 || ^4.0"
+    },
+    "require-dev": {
+        "symfony/process": "^4.4 || ^5.0 || ^6.0",
+        "phpstan/phpstan": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "NoResponseMate\\OverrideStepsExtension\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\NoResponseMate\\OverrideStepsExtension\\": "tests/"
+        }
+    }
+}
